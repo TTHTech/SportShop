@@ -16,9 +16,9 @@ public class MainController {
 		return "home/login";
 	}
 
-	@GetMapping("/index")
-	public String home() {
-		logger.info("Accessing the home page");
-		return "home/index";
-	}
+//	@GetMapping("/index")
+//	public String home() {
+//		logger.info("Accessing the home page");
+//		return "home/index";
+//	}
 }
