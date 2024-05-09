@@ -61,7 +61,9 @@ public class SecurityConfiguration {
                 .formLogin(form -> form
                         .loginPage("/login")
                         .loginProcessingUrl("/perform_login")
+
                         .successHandler(loginSuccessHandler())
+
                         .failureUrl("/login?error=true")
                         .permitAll())
                 .logout(logout -> logout
