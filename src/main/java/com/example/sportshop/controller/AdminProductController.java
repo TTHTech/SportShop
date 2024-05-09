@@ -17,7 +17,7 @@ public class AdminProductController {
     private final CategoryService categoryService;
     private final UploadService uploadService;
 
-    public AdminProductController(UploadService uploadService, ProductService productService, CategoryService categoryService) {
+    public AdminProductController(UploadService uploadService,ProductService productService, CategoryService categoryService) {
         this.uploadService=uploadService;
         this.productService = productService;
         this.categoryService = categoryService;
